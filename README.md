@@ -50,6 +50,19 @@ Example:
 docker run -it --name lazyc lazy
 ```
 
+You may also list all the available containers using the following:
+
+```
+docker ps -a
+```
+
+**NOTE**: to remove an image you must first remove the container. You can achieve that by using
+```
+> docker rm [container's name or ID]
+
+> docker image rm [image name or ID]
+```
+
 # Conclusion
 Here we provide an easy way for you to start exploring the right models for your applications without the need of preparing any virtual environment or installing any packages in your local file system. Just put your dataset file in the data folder and you are go to go :relaxed: 
  
