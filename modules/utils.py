@@ -8,7 +8,7 @@ import os
 
 logging.basicConfig(level=logging.INFO)
 
-path_to_data = os.path.join(os.path.curdir, "data")
+path_to_data = os.path.join(os.path.pardir, "data")
 
 def detect_dataset() -> pd.DataFrame:
     logging.info('Searching for datasets')
